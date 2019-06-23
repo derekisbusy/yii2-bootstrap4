@@ -8,11 +8,11 @@ class BootstrapAsset extends AssetBundle
     public $sourcePath = '@vendor/derekisbusy/bootstrap4';
     
     public $css = [
-        'css/bootstrap.min.css',
+        YII_ENV_DEV ? 'css/bootstrap.css' : 'css/bootstrap.min.css',
     ];
     
     public $js = [
-        'js/bootstrap.min.js',
+        YII_ENV_DEV ? 'js/bootstrap.js' : 'js/bootstrap.min.js',
     ];
     
     public $depends = [
