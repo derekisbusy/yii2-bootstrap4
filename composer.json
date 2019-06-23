@@ -11,7 +11,8 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "~2.0.0"
+        "yiisoft/yii2": "~2.0.0",
+        "derekisbusy/yii2-popper": "dev-master"
     },
     "autoload": {
         "psr-4": {
