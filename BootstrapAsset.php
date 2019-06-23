@@ -12,7 +12,8 @@ class BootstrapAsset extends AssetBundle
     ];
     
     public $js = [
-        YII_ENV_DEV ? 'js/bootstrap.js' : 'js/bootstrap.min.js',
+//        YII_ENV_DEV ? 'js/bootstrap.js' : 'js/bootstrap.min.js',
+        YII_ENV_DEV ? 'js/bootstrap.js' : 'js/bootstrap.bundle.min.js',
     ];
     
     public $depends = [
