@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist derekisbusy/yii2-bootstrap4 "*"
+php composer.phar require --prefer-dist derekisbusy/yii2-bootstrap4:dev-master
 ```
 
 or add
 
 ```
-"derekisbusy/yii2-bootstrap4": "*"
+"derekisbusy/yii2-bootstrap4": "dev-master"
 ```
 
 to the require section of your `composer.json` file.
@@ -25,7 +25,26 @@ to the require section of your `composer.json` file.
 Usage
 -----
 
-Once the extension is installed, simply use it in your code by  :
+Once the extension is installed, simply use it by adding it to your view  :
 
 ```php
-<?= \derekisbusy\bootstrap4\AutoloadExample::widget(); ?>```
+use \derekisbusy\bootstrap4\BootstrapAsset;
+
+BootstrapAsset::register($this);
+```
+
+or by adding it to another assets dependencies list :
+
+```php
+  public $depends = [
+    'derekisbusy\bootstrap4\BootstrapAsset'
+  ];
+```
+
+
+Documentation
+-------------
+ * [twbs/bootstrap](https://github.com/twbs/bootstrap#documentation)
+ * [Bootrap 4 docs](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
+ * [Bootrap 4 examples](https://getbootstrap.com/docs/4.3/examples/)
+ * [Yii2 assets](https://www.yiiframework.com/doc/guide/2.0/en/structure-assets)
