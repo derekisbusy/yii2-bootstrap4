@@ -44,6 +44,7 @@ or by adding it to another assets dependencies list :
 
 Resources
 ---------
- * [FezVrasta/popper.js](https://github.com/FezVrasta/popper.js)
- * [Popper.js docs](https://popper.js.org/popper-documentation.html)
+ * [twbs/bootstrap](https://github.com/twbs/bootstrap#documentation)
+ * [Bootrap 4 docs](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
+ * [Bootrap 4 examples](https://getbootstrap.com/docs/4.3/examples/)
  * [Yii2 assets](https://www.yiiframework.com/doc/guide/2.0/en/structure-assets)
