@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "derekisbusy\\bootstrap4\\": ""
+            "derekisbusy\\bootstrap4\\": "src"
         }
     }
 }
